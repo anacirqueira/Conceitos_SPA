@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ffffff;
+  
+  font-size: 2.8rem;
+  font-family: 'DM Serif Display', serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+
+  width: 100%;
+  background-color: #fffffffa;
+  padding: 1.6rem
+}
+
+nav a {
+  color: #152244;
+  text-decoration: none;
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+}
